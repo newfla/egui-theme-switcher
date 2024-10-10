@@ -1,0 +1,22 @@
+[package]
+name = "egui-theme-switcher"
+version = "0.1.0"
+edition = "2021"
+authors = ["Flavio Bizzarri <fl.bizzarri@gmail.com>"]
+license = "Apache-2.0"
+repository = "https://github.com/newfla/egui-theme-switcher"
+keywords = ["egui", "theming", "widget"]
+categories = ["gui"]
+
+[workspace]
+resolver = "2"
+members = [
+    "examples/*"
+]
+
+[dependencies]
+egui = "0.29.1"
+egui_material_icons = "0.1.0"
+
+[workspace.dependencies]
+eframe = "0.29.1"
