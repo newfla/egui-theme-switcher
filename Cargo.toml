@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2021"
 authors = ["Flavio Bizzarri <fl.bizzarri@gmail.com>"]
 license = "Apache-2.0"
+description = "egui widget for switching theme"
 repository = "https://github.com/newfla/egui-theme-switcher"
 keywords = ["egui", "theming", "widget"]
 categories = ["gui"]
