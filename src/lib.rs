@@ -7,7 +7,7 @@ use egui::{
 
 static TOGGLE_STORAGE: RwLock<ThemePreference> = RwLock::new(ThemePreference::System);
 
-/// Widget Size
+/// Widget Size. Default to S
 #[non_exhaustive]
 #[derive(Default)]
 pub enum Dimension {
