@@ -31,7 +31,7 @@ impl Dimension {
     }
 }
 
-/// Paint the switcher to the [Ui] specyfing the [Dimension]
+/// Paint the switcher to the [Ui] specifying the [Dimension]
 pub fn theme_switcher_ui(ui: &mut Ui, dim: Dimension) -> Response {
     // Widget and font size
     let desired_size =
@@ -133,7 +133,7 @@ pub fn theme_switcher_ui(ui: &mut Ui, dim: Dimension) -> Response {
     response
 }
 
-/// Add the switcher to the [Ui] specyfing a [Dimension]
+/// Add the switcher to the [Ui] specifying a [Dimension]
 pub fn theme_switcher_with_dimension(dim: Dimension) -> impl Widget {
     move |ui: &mut Ui| theme_switcher_ui(ui, dim)
 }
