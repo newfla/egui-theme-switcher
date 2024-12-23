@@ -16,7 +16,7 @@ members = [
 ]
 
 [dependencies]
-egui = "0.29.1"
+egui = "0.30.0"
 egui_material_icons = "0.1.0"
 
 [workspace.dependencies]
