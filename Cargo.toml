@@ -17,7 +17,7 @@ members = [
 
 [dependencies]
 egui = "0.30.0"
-egui_material_icons = "0.2.0"
+egui_material_icons = "0.3.0"
 
 [workspace.dependencies]
 eframe = "0.30.0"
