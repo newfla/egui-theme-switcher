@@ -83,8 +83,13 @@ pub fn theme_switcher_ui(ui: &mut Ui, dim: Dimension) -> Response {
         let circle_position = pos2(circle_x, rect.center().y);
 
         // Paint background rect
-        ui.painter()
-            .rect(rect, radius, rect_visuals.bg_fill, rect_visuals.bg_stroke, egui::StrokeKind::Outside);
+        ui.painter().rect(
+            rect,
+            radius,
+            rect_visuals.bg_fill,
+            rect_visuals.bg_stroke,
+            egui::StrokeKind::Outside,
+        );
 
         // Paint icons
         let light_rect = ui.painter().text(
