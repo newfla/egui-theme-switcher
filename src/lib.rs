@@ -84,7 +84,7 @@ pub fn theme_switcher_ui(ui: &mut Ui, dim: Dimension) -> Response {
 
         // Paint background rect
         ui.painter()
-            .rect(rect, radius, rect_visuals.bg_fill, rect_visuals.bg_stroke);
+            .rect(rect, radius, rect_visuals.bg_fill, rect_visuals.bg_stroke, egui::StrokeKind::Outside);
 
         // Paint icons
         let light_rect = ui.painter().text(
