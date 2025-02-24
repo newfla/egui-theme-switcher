@@ -1,8 +1,8 @@
 use std::sync::RwLock;
 
 use egui::{
-    lerp, pos2, vec2, Align2, Color32, FontId, Response, Sense, ThemePreference, Ui, Widget,
-    WidgetInfo, WidgetType,
+    Align2, Color32, FontId, Response, Sense, ThemePreference, Ui, Widget, WidgetInfo, WidgetType,
+    lerp, pos2, vec2,
 };
 
 static TOGGLE_STORAGE: RwLock<ThemePreference> = RwLock::new(ThemePreference::System);
