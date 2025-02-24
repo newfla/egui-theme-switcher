@@ -1,5 +1,5 @@
 use eframe::egui::{CentralPanel, ViewportBuilder};
-use egui_theme_switcher::{theme_switcher_with_dimension, Dimension};
+use egui_theme_switcher::{Dimension, theme_switcher_with_dimension};
 
 fn main() -> Result<(), eframe::Error> {
     let opts = eframe::NativeOptions {
