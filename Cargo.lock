@@ -830,7 +830,7 @@ dependencies = [
 name = "egui-theme-switcher"
 version = "0.1.8"
 dependencies = [
- "egui 0.33.0",
+ "egui 0.32.3",
  "egui_material_icons",
 ]
 
@@ -894,11 +894,11 @@ dependencies = [
 
 [[package]]
 name = "egui_material_icons"
-version = "0.4.0"
+version = "0.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "edaf2524c06db70ec9154db2de26b43ea278cd304547c0ee9339d5a46a4d6a04"
+checksum = "3ff7d3715b5ee29fe75afd19420756b3e0a970149b62712af1b3204a68e2012b"
 dependencies = [
- "egui 0.32.3",
+ "egui 0.33.0",
 ]
 
 [[package]]
@@ -954,7 +954,7 @@ dependencies = [
  "bytemuck",
  "ecolor 0.32.3",
  "emath 0.32.3",
- "epaint_default_fonts 0.32.3",
+ "epaint_default_fonts",
  "log",
  "nohash-hasher",
  "parking_lot",
@@ -971,7 +971,6 @@ dependencies = [
  "ahash",
  "ecolor 0.33.0",
  "emath 0.33.0",
- "epaint_default_fonts 0.33.0",
  "log",
  "nohash-hasher",
  "parking_lot",
@@ -983,12 +982,6 @@ name = "epaint_default_fonts"
 version = "0.32.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1537accc50c9cab5a272c39300bdd0dd5dca210f6e5e8d70be048df9596e7ca2"
-
-[[package]]
-name = "epaint_default_fonts"
-version = "0.33.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "66054d943c66715c6003a27a3dc152d87cadf714ef2597ccd79f550413009b97"
 
 [[package]]
 name = "equivalent"
