@@ -18,9 +18,10 @@ fn main() -> Result<(), eframe::Error> {
 struct App {}
 
 impl eframe::App for App {
-    fn update(&mut self, ctx: &eframe::egui::Context, _frame: &mut eframe::Frame) {
-        CentralPanel::default().show(ctx, |ui| {
-            ui.heading(format!("Selected: {:?}", ctx.theme()));
+    
+    fn ui(&mut self, ui: &mut eframe::egui::Ui, _frame: &mut eframe::Frame) {
+        CentralPanel::default().show_inside(ui, |ui| {
+            ui.heading(format!("Selected: {:?}", ui.theme()));
             ui.horizontal(|ui| {
                 ui.label("S");
                 ui.add(theme_switcher_with_dimension(Dimension::S));
