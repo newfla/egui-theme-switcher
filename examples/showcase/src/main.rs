@@ -18,7 +18,6 @@ fn main() -> Result<(), eframe::Error> {
 struct App {}
 
 impl eframe::App for App {
-    
     fn ui(&mut self, ui: &mut eframe::egui::Ui, _frame: &mut eframe::Frame) {
         CentralPanel::default().show_inside(ui, |ui| {
             ui.heading(format!("Selected: {:?}", ui.theme()));
