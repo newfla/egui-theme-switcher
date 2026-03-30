@@ -95,21 +95,21 @@ pub fn theme_switcher_ui(ui: &mut Ui, dim: Dimension) -> Response {
         let light_rect = ui.painter().text(
             light_position,
             Align2::CENTER_CENTER,
-            egui_material_icons::icons::ICON_LIGHT_MODE,
+            egui_material_icons::icons::ICON_LIGHT_MODE.codepoint,
             font.clone(),
             Color32::WHITE,
         );
         let system_rect = ui.painter().text(
             system_position,
             Align2::CENTER_CENTER,
-            egui_material_icons::icons::ICON_SETTINGS,
+            egui_material_icons::icons::ICON_SETTINGS.codepoint,
             font.clone(),
             Color32::WHITE,
         );
         let dark_rect = ui.painter().text(
             dark_position,
             Align2::CENTER_CENTER,
-            egui_material_icons::icons::ICON_DARK_MODE,
+            egui_material_icons::icons::ICON_DARK_MODE.codepoint,
             font,
             Color32::WHITE,
         );
