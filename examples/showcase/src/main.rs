@@ -19,7 +19,7 @@ struct App {}
 
 impl eframe::App for App {
     fn ui(&mut self, ui: &mut eframe::egui::Ui, _frame: &mut eframe::Frame) {
-        CentralPanel::default().show_inside(ui, |ui| {
+        CentralPanel::default().show(ui, |ui| {
             ui.heading(format!("Selected: {:?}", ui.theme()));
             ui.horizontal(|ui| {
                 ui.label("S");
