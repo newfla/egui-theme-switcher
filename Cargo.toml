@@ -18,4 +18,4 @@ egui = "0.36.0"
 egui_material_icons = "0.8.0"
 
 [workspace.dependencies]
-eframe = "0.36.0"
+eframe = "0.37.0"
